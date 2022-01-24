@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/search_bar"
+        android:title="search"
+        android:hint="Search lecturer and video names..."
+        android:icon="@drawable/ic_search_black_24dp"
+        app:showAsAction="always"
+        android:orderInCategory="100"
+        android:visible="false"
+        />
+    <item
+        android:id="@+id/sorting"
+        android:icon="@drawable/ic_menu4"
+        android:orderInCategory="100"
+        android:title="sorting"
+        android:visible="false"
+        app:showAsAction="always" />
+</menu>

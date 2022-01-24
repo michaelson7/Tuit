@@ -1,0 +1,117 @@
+{
+  "project_info": {
+    "project_number": "174818670582",
+    "firebase_url": "https://educationalapp-82bcf.firebaseio.com",
+    "project_id": "educationalapp-82bcf",
+    "storage_bucket": "educationalapp-82bcf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174818670582:android:f0e634bf2ee52b46adb9d7",
+        "android_client_info": {
+          "package_name": "com.example.educationalapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "174818670582-nbr8130ulug3ckupusecpsg5vlla2ffr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.educationalapp",
+            "certificate_hash": "85c6dbd7782dba975e1cbb42b9f1a463af0a755b"
+          }
+        },
+        {
+          "client_id": "174818670582-lu35c6f5si4ccglnqunuvgd9il0he0h5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.educationalapp",
+            "certificate_hash": "c54c970c874ba7d77b57a55ef2d0b30d6ebfc490"
+          }
+        },
+        {
+          "client_id": "174818670582-o33png2p633afrjr4lctucdr36oilmn5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.educationalapp",
+            "certificate_hash": "145c85da273e2e4f15747108090d3834031fe3e1"
+          }
+        },
+        {
+          "client_id": "174818670582-418351gnrhj1odhm6ltj0ckmpf5dfp6m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvBMIQxTfvAvV4nvJiOXARwW-7yye2XAU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "174818670582-418351gnrhj1odhm6ltj0ckmpf5dfp6m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174818670582:android:e39bc3c9a730f23cadb9d7",
+        "android_client_info": {
+          "package_name": "com.nkwazi_tech.tuit_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "174818670582-9bucevuelq3n7c1lqop61gvn66k5mobd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nkwazi_tech.tuit_app",
+            "certificate_hash": "85c6dbd7782dba975e1cbb42b9f1a463af0a755b"
+          }
+        },
+        {
+          "client_id": "174818670582-6kfdmucipddl8km00i1ro011f4g6lpqb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nkwazi_tech.tuit_app",
+            "certificate_hash": "c54c970c874ba7d77b57a55ef2d0b30d6ebfc490"
+          }
+        },
+        {
+          "client_id": "174818670582-e79uab5cihholf4mdjl2oaf7m8t3kftn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nkwazi_tech.tuit_app",
+            "certificate_hash": "145c85da273e2e4f15747108090d3834031fe3e1"
+          }
+        },
+        {
+          "client_id": "174818670582-418351gnrhj1odhm6ltj0ckmpf5dfp6m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvBMIQxTfvAvV4nvJiOXARwW-7yye2XAU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "174818670582-418351gnrhj1odhm6ltj0ckmpf5dfp6m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

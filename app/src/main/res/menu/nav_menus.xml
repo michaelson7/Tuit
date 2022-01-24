@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+    <group
+        android:id="@+id/nav_admin"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_ui"
+            android:icon="@drawable/ic_gears"
+            android:title="Change UI" />
+        <item
+            android:id="@+id/nav_accounts"
+            android:icon="@drawable/ic_account"
+            android:title="Handle Accounts/Video Approval" />
+    </group>
+
+    <group
+        android:id="@+id/nav_group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home"
+            />
+        <item
+            android:id="@+id/nav_Dashboard"
+            android:icon="@drawable/ic_user"
+            android:title="My Account"
+            />
+        <item
+            android:id="@+id/nav_News"
+            android:icon="@drawable/ic_newspaper"
+            android:title="Notice Board" />
+        <item
+            android:id="@+id/nav_CarePlans"
+            android:icon="@drawable/ic_notebook"
+            android:title="Nursing Care Plans" />
+        <item
+            android:id="@+id/nav_research"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="Nursing Research" />
+        <item
+            android:id="@+id/nav_Discussions"
+            android:icon="@drawable/ic_speech_bubbles"
+            android:title="Group Discussions" />
+
+    </group>
+
+    <group
+        android:id="@+id/nav_group2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_gears"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/ic_file3"
+            android:title="About Us" />
+        <item
+            android:id="@+id/nav_logoutt"
+            android:icon="@drawable/ic_exit"
+            android:title="LogOut"/>
+    </group>
+
+</menu>

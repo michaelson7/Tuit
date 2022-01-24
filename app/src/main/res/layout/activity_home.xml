@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundcolor"
+    tools:context=".Activities.Home_Activity"
+    tools:openDrawer="start">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.circularreveal.coordinatorlayout.CircularRevealCoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!-- The ActionBar displayed at the top -->
+            <include
+                layout="@layout/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!-- The main content view where fragments are loaded -->
+            <FrameLayout
+                android:id="@+id/flContent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?attr/backgroundcolor"
+                android:backgroundTint="#00A0ABAD"
+                app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" />
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/Bottombar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="?attr/uicolor"
+                android:theme="@style/BottomNavigationView"
+                app:itemIconTint="@drawable/tab_color"
+                app:itemTextColor="@drawable/tab_color"
+                app:labelVisibilityMode="auto"
+                app:menu="@menu/nav_bottom" />
+
+        </com.google.android.material.circularreveal.coordinatorlayout.CircularRevealCoordinatorLayout>
+
+    </RelativeLayout>
+    <!-- The navigation drawer that comes from the left -->
+    <!-- Note that `android:layout_gravity` needs to be set to 'start' -->
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nvView"
+        android:layout_width="320dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="?attr/uicolor"
+        app:headerLayout="@layout/header"
+        app:itemIconTint="?attr/textcolor"
+        app:itemTextColor="?attr/textcolor"
+        app:menu="@menu/nav_menus" />
+
+</androidx.drawerlayout.widget.DrawerLayout>

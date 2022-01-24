@@ -1,0 +1,73 @@
+package com.nkwazi_tech.tuit_app.Classes;
+
+public class URLs {
+    private static final String ROOT_URL = "https://myhost.nkwazitech.com/Api.php?apicall=";
+//    private static final String ROOT_URL = "http://10.0.2.2/web_clientProjects/tuit_dashboard/API.php?apicall=";
+    public static final String getSchools= ROOT_URL + "getschools";
+    public static final String URL_Retrive= ROOT_URL + "RetriveContent";
+    public static final String URL_getcourse= ROOT_URL + "GetCourses";
+    public static final String URL_RetriveCources= ROOT_URL + "RetriveCourses";
+    public static final String URL_RetriveNews= ROOT_URL + "RetriveNews";
+    public static final String URL_getCourseVideo= ROOT_URL + "getCourseVideo";
+    public static final String URL_loadgroups= ROOT_URL + "getgroup";
+    public static final String URL_getCarepans= ROOT_URL + "getcareplans";
+    public static final String URL_loadheader= ROOT_URL + "getadmincareplansheader";
+    public static final String URL_getAdmincareplans= ROOT_URL + "getadmincareplans";
+    public static String get_course= ROOT_URL + "get_course";
+    public static String fetch_programs= ROOT_URL + "fetch_programs";
+    public static String fetch_program_course= ROOT_URL + "fetch_program_course";
+
+    public static final String URL_REGISTER = ROOT_URL + "signup";
+    public static final String URL_LOGIN= ROOT_URL + "login";
+    public static final String URL_uploadnews= ROOT_URL + "newsupload";
+    public static final String URL_RetriveID= ROOT_URL + "RetriveSpecific";
+    public static final String URL_videodelete= ROOT_URL + "Deletevideo";
+    public static final String URL_videoupdate= ROOT_URL + "Updatevideo";
+    public static final String URL_setViews= ROOT_URL + "updateview";
+    public static final String URL_getCourseLecturer= ROOT_URL + "getCourseLecturer";
+    public static final String URL_getMycourseyearone= ROOT_URL + "GetMyCourseYearOne";
+    public static final String URL_getMycourseyeartwo= ROOT_URL + "GetMyCourseYearTwo";
+    public static final String URL_getMycourseyearthree= ROOT_URL + "GetMyCourseYearThree";
+    public static final String URL_updateuserinfo= ROOT_URL + "updateuserinfo";
+    public static final String URL_updatelecturer= ROOT_URL + "updatelecturer";
+    public static final String URL_updatecourse= ROOT_URL + "updatecourse";
+    public static final String URL_getbookmarks= ROOT_URL + "getBookmarked";
+    public static final String URL_getrecentvideos= ROOT_URL + "getHistory";
+    public static final String URL_getmygroups= ROOT_URL + "getMygroup";
+    public static final String URL_joinGroup= ROOT_URL + "joinGRoup";
+    public static final String URL_postnotifications= ROOT_URL + "firebase";
+    public static final String URL_exitgroup= ROOT_URL + "exitgroup";
+    public static final String URL_deletegroup= ROOT_URL + "DeleteGroup";
+    public static final String URL_getstats= ROOT_URL + "RetriveStats";
+    public static final String URL_updatepdf= ROOT_URL + "updatepdf";
+    public static final String URL_DeleteLibrary= ROOT_URL + "DeleteLibrary";
+    public static final String URL_deletepdf= ROOT_URL + "deletepdf";
+    public static final String URL_getmembers= ROOT_URL + "getmembers";
+    public static final String URL_getTP= ROOT_URL + "getTC";
+    public static final String URL_updateterms= ROOT_URL + "updatetermsandconditions";
+    public static final String URL_GetUsers= ROOT_URL + "getusers";
+    public static final String URL_modeuser= ROOT_URL + "deleteuser";
+    public static final String URL_checksuspension= ROOT_URL + "checksuspension";
+    public static final String URL_DeleteAdminCarePlan= ROOT_URL + "deletecareplans";
+    public static final String URL_deletmember= ROOT_URL + "deletemember";
+    public static final String URL_setVerified= ROOT_URL + "setverifed";
+    public static final String URL_getNursing= ROOT_URL + "nursingresearch";
+    public static final String URL_updateresponse= ROOT_URL + "updateresponse";
+    public static final String URL_getnursingresearch= ROOT_URL + "getnursingresearch";
+    public static final String URL_generalresearch= ROOT_URL + "getGeneralResearch";
+    public static final String URL_sendvideoresponse= ROOT_URL + "setVideoResponse";
+    public static final String URL_deleteresearchfiles= ROOT_URL + "deleteresearchfiles";
+    public static final String URL_Subloadheader= ROOT_URL + "getadmincareplanssubheader";
+    public static String fetch_student_img= ROOT_URL + "fetch_student_img";
+    public static String URL_deletnews= ROOT_URL + "URL_deletnews";
+    public static String Course_Subscription= ROOT_URL + "Course_Subscription";
+    public static String check_Subscription= ROOT_URL + "check_Subscription";
+    public static String Search_Function= ROOT_URL + "Search_Function";
+    public static String fetch_related_Videos= ROOT_URL + "fetch_related_Videos";
+    public static String balance_Topup= ROOT_URL + "balance_Topup";
+    public static String fetch_course_details= ROOT_URL + "fetch_course_details";
+    public static String notification_Response= ROOT_URL + "notification_Response";
+    public static String delete_General= ROOT_URL + "delete_General";
+
+
+}

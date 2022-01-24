@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TuiT</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_activity_group_discussion_activity">GroupDiscussion_activity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="msg_token_fmt">message token</string>
+    <string name="search_hint">Search for Lecturer, Video Name...</string>
+</resources>

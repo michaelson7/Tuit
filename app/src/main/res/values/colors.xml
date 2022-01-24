@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#AC6123</color>
+    <color name="colorPrimaryDark">#AC6123</color>
+    <color name="colorAccent">#AC6123</color>
+    <color name="darker">#131313</color>
+    <color name="dark">#2E2E2E</color>
+    <color name="adaptive_rounded">#7A636363</color>
+    <color name="test7">#882323</color>
+</resources>
+
+
