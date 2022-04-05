@@ -153,6 +153,32 @@ public class Register_Frag extends Fragment {
         schoolList.add("Select School");
         schoolId.add(0);
 
+//        StringRequest stringRequest = new StringRequest(Request.Method.GET, URLs.getSchools,
+//                response -> {
+//                    try {
+//                        //converting the string to json array object
+//                        JSONObject obj = new JSONObject(response);
+//                        Terms = obj.getString("Terms");
+//
+//                    } catch (JSONException e) {
+//                        e.printStackTrace();
+//                    }
+//                },
+//                error -> {
+//                    Toast.makeText(getContext(), error.toString(), Toast.LENGTH_LONG).show();
+//                    if (error instanceof NetworkError || error instanceof ServerError || error instanceof AuthFailureError ||
+//                            error instanceof ParseError || error instanceof NoConnectionError || error instanceof TimeoutError) {
+//                        Toast.makeText(getContext(),
+//                                "Please check your internet connection",
+//                                Toast.LENGTH_LONG).show();
+//                    }
+//                });
+//        //adding our stringrequest to queue
+//        Volley.newRequestQueue(getContext()).add(stringRequest);
+//        stringRequest.setRetryPolicy(new DefaultRetryPolicy(5000, DefaultRetryPolicy.DEFAULT_MAX_RETRIES,
+//                DefaultRetryPolicy.DEFAULT_BACKOFF_MULT));
+//    }
+
         StringRequest stringRequest = new StringRequest(Request.Method.GET, URLs.getSchools,
                 response -> {
                     try {
@@ -186,8 +212,6 @@ public class Register_Frag extends Fragment {
                 },
                 error -> Toast.makeText(getContext(), error.toString(), Toast.LENGTH_LONG).show());
         Volley.newRequestQueue(getContext()).add(stringRequest);
-
-
     }
 
     private void LoadCourses() {
@@ -730,30 +754,23 @@ public class Register_Frag extends Fragment {
 
     private void LoadTC() {
         StringRequest stringRequest = new StringRequest(Request.Method.GET, URLs.URL_getTP,
-                new Response.Listener<String>() {
-                    @Override
-                    public void onResponse(String response) {
-                        try {
-                            //converting the string to json array object
-                            JSONObject obj = new JSONObject(response);
-                            Terms = obj.getString("Terms");
+                response -> {
+                    try {
+                        //converting the string to json array object
+                        JSONObject obj = new JSONObject(response);
+                        Terms = obj.getString("Terms");
 
-                        } catch (JSONException e) {
-                            e.printStackTrace();
-                        }
+                    } catch (JSONException e) {
+                        e.printStackTrace();
                     }
                 },
-                new Response.ErrorListener() {
-                    @Override
-                    public void onErrorResponse(VolleyError error) {
-                        Toast.makeText(getContext(), error.toString(), Toast.LENGTH_LONG).show();
-                        if (error instanceof NetworkError || error instanceof ServerError || error instanceof AuthFailureError ||
-                                error instanceof ParseError || error instanceof NoConnectionError || error instanceof TimeoutError) {
-
-                            Toast.makeText(getContext(),
-                                    "Please check your internet connection",
-                                    Toast.LENGTH_LONG).show();
-                        }
+                error -> {
+                    Toast.makeText(getContext(), error.toString(), Toast.LENGTH_LONG).show();
+                    if (error instanceof NetworkError || error instanceof ServerError || error instanceof AuthFailureError ||
+                            error instanceof ParseError || error instanceof NoConnectionError || error instanceof TimeoutError) {
+                        Toast.makeText(getContext(),
+                                "Please check your internet connection",
+                                Toast.LENGTH_LONG).show();
                     }
                 });
         //adding our stringrequest to queue

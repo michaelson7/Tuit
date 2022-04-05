@@ -12,7 +12,7 @@ public interface MediaHandler {
     //make sure you are not using localhost
     //find the ip usinc ipconfig command
 
-    String BASE_URL = "https://myhost.nkwazitech.com/";
+    String BASE_URL = "http://10.0.2.2:3080/web_clientProjects/tuitRedesign/";
 //    String BASE_URL = "http://nawa777.000webhostapp.com/";
 
     @Multipart

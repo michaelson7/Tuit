@@ -1,9 +1,9 @@
 package com.nkwazi_tech.tuit_app.Classes;
 
 public class URLs {
-    private static final String ROOT_URL = "https://myhost.nkwazitech.com/Api.php?apicall=";
-//    private static final String ROOT_URL = "http://10.0.2.2/web_clientProjects/tuit_dashboard/API.php?apicall=";
-    public static final String getSchools= ROOT_URL + "getschools";
+   // private static final String ROOT_URL = "https://myhost.nkwazitech.com/Api.php?apicall=";
+    private static final String ROOT_URL = "http://10.0.2.2:3080/web_clientProjects/tuitRedesign/api.php?apicall=";
+    public static final String getSchools= ROOT_URL + "getSchools";
     public static final String URL_Retrive= ROOT_URL + "RetriveContent";
     public static final String URL_getcourse= ROOT_URL + "GetCourses";
     public static final String URL_RetriveCources= ROOT_URL + "RetriveCourses";
@@ -16,7 +16,6 @@ public class URLs {
     public static String get_course= ROOT_URL + "get_course";
     public static String fetch_programs= ROOT_URL + "fetch_programs";
     public static String fetch_program_course= ROOT_URL + "fetch_program_course";
-
     public static final String URL_REGISTER = ROOT_URL + "signup";
     public static final String URL_LOGIN= ROOT_URL + "login";
     public static final String URL_uploadnews= ROOT_URL + "newsupload";
